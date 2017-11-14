@@ -1,7 +1,7 @@
 {
     "name": "tuemmlerkon/php-openfire-restapi",
     "description": "Manage Open fire server using Rest Api",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "keywords": ["openfire", "xmpp", "chat", "openfire-api", "api"],
     "homepage": "https://github.com/tuemmlerkon/php-openfire-restapi",
     "license": "MIT",

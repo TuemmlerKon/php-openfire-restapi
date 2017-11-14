@@ -629,7 +629,7 @@ class OpenFireRestApi {
 	 * @return bool
 	 */
 	public function addUserToGroup(User $user, Group $group) {
-		return $this->addUserToGroups($user, new ArrayCollection($group->getGroupname()));
+		return $this->addUserToGroups($user, new ArrayCollection(array($group->getGroupname())));
 	}
 
 	/**
@@ -675,7 +675,7 @@ class OpenFireRestApi {
 	 * @return bool
 	 */
 	public function removeUserFromGroup(User $user, Group $group) {
-		return $this->removeUserFromGroups($user, new ArrayCollection($group->getGroupname()));
+		return $this->removeUserFromGroups($user, new ArrayCollection(array($group->getGroupname())));
 	}
 
 	/**
