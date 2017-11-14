@@ -1,19 +1,23 @@
 {
-    "name": "gidkom/php-openfire-restapi",
+    "name": "TuemmlerKon/php-openfire-restapi",
     "description": "Manage Open fire server using Rest Api",
-    "version": "1.0.0",
-    "keywords": ["openfire", "xmpp", "chat"],
-    "homepage": "https://github.com/gidkom/php-openfire-restapi",
+    "version": "1.1.0",
+    "keywords": ["openfire", "xmpp", "chat", "openfire-api", "api"],
+    "homepage": "https://github.com/tuemmlerkon/php-openfire-restapi",
     "license": "MIT",
     "authors": [
         {
             "name": "Gideon Kombian",
             "email": "yoroumah@gmail.com"
+        },
+        {
+            "name": "Konstantin Tümmler",
+            "email": "konstantin@tuemmler.org"
         }
     ],
     "support": {
-        "email": "yoroumah@gmail.com",
-        "issues": "https://github.com/gidkom/php-openfire-restapi/issues"
+        "email": "konstantin@tuemmler.org",
+        "issues": "https://github.com/tuemmlerkon/php-openfire-restapi"
     },
     "require": {
         "php": ">=5.4.0",
@@ -22,7 +26,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Gidkom\\OpenFireRestApi": "src/"
+            "TuemmlerKon\\OpenFireRestApi": "src/"
         }
     },
     "minimum-stability": "dev"
